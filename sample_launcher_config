@@ -1,0 +1,7 @@
+{
+  "release_tag": "v1.0",
+  "zip_file": "testclient.zip",
+  "protected_folders": ["minimap", "conf", "character data", "custom_folder"],
+  "description": "Tibia Test Client Configuration",
+  "auto_update": true
+}
