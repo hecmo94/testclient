@@ -24,14 +24,14 @@
     "enable_minimap_downloads": true,
     "custom_minimaps": {},
 
-    "highscores_url": "https://lunaria-ot.com/?highscores",
+    "highscores_url": "https://lunaria-ot.com/?highscores/experience",
     "highscores_json": null,
     "highscores_selectors": {
-        "container_selector": null,
-        "row_selector": null,
-        "name_selector": null,
-        "level_selector": null,
-        "outfit_selector": null,
+        "container_selector": "table.TableContent",
+        "row_selector": "tbody tr:not(.LabelH)",
+        "name_selector": "td:nth-child(3) a span, td:nth-child(3) a, td:nth-child(3)",
+        "level_selector": "td:nth-last-child(2)",
+        "outfit_selector": "td:nth-child(2) img",
         "outfit_attr": "src"
     },
     
